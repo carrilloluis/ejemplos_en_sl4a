@@ -4,12 +4,12 @@
 __author__ = u'Luis Carrillo Gutiérrez'
 
 try:
-    import androidhelper as sl4a
+	import androidhelper as sl4a
 except ImportError:
 	import android as sl4a
 except ImportError:
-    import sl4a
+	import sl4a
 
-print('\033[2J') # clear screen
+print('\033[2J') # limpiar la pantalla
 app = sl4a.Android()
 print('Se ha cargado SL4A, con éxito!')
