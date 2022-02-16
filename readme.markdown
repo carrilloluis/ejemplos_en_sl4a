@@ -19,6 +19,7 @@ Reporta la presencia de la batería en el móvil. (funciona con un Android SDK v
 + batteryGetHealth  
 
 Informa sobre la condición de la battería :
+
 	* 1 - desconocida (unknown)
 	* 2 - buena (good)
 	* 3 - con sobrecarga (overheat)
@@ -32,7 +33,8 @@ Reporta el nivel de carga de la batería (porcentaje). Requiere un Android SDK v
 
 + batteryGetPlugType  
 
-Reporta el tipo de conector al que la batería esta conectada.
+Reporta el tipo de conector al que la batería esta conectada :
+
 	* -1 - desconocido (unknown)
 	*  0 - desconectado (unplugged)
 	*  1 - cargador con fuente poder de corriente alterna (power source is an AC charger)
@@ -40,7 +42,8 @@ Reporta el tipo de conector al que la batería esta conectada.
 
 + batteryGetStatus  
 
-Reporta el estado de carga en la batería
+Reporta el estado de carga en la batería :
+
 	* 1 - desconocido (unknown)
 	* 2 - cargando (charging)
 	* 3 - descargando (discharging)
