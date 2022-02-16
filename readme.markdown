@@ -18,7 +18,7 @@ Reporta la presencia de la batería en el móvil. (funciona con un Android SDK v
 
 + batteryGetHealth  
 
-Informa sobre la condición de la battería :
+Informa sobre la condición de la batería :
 
 	* 1 - desconocida (unknown)
 	* 2 - buena (good)
